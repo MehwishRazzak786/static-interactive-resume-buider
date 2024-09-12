@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Interactive Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center;font-family:Arial, Helvetica, sans-serif;color:#00796b; box-shadow: 0px 0px 15px #004d40;">Static Interactive Resume By Mehwish Abdul Razzak</h1>
+    <div class="container">
+        <aside class="left-column">
+            <img src="images/pic.jpg" alt="Profile Picture" class="profile-pic">
+            <h3><u>Personal Information</u></h3>
+
+            <p><strong>Name:</strong> Mehwish Abdul Razzak</p>
+            <p><strong>Contact:</strong> mehwishshahid070@gmail.com</p>
+            <p><strong>Phone:</strong> 0332-2805745</p>
+            <h3><u>About Me</u></h3>
+            <p>To seek a challenging position in a reputable, Progressive and growing organization, where, I may be to utilize my skills and ability with an opportunity of growth, advancement and enhancement of my knowledge.</p>
+        </aside>
+
+        <main class="right-column">
+            <section id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li><strong>Graduation:</strong> Bachelor of Commerce (B.COM) From Karachi University.</li>
+                    <li><strong>Intermediate:</strong> Intermediate in (PRE-ENG) From Govt. College for Women, Shahrah-e-Liaquat, Karachi.</li>
+                    <li><strong>Metriculation:</strong> Metriculation in (BIO-SCIENCE) From Hameed Muhammad Pri. & Sec. School, Karachi.</li>
+                </ul>
+                <button id="toggle-education">Toggle Education</button>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <div id="skills-list">
+                    <ul>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>React</li>
+                        <li>Next.JS</li>
+                    </ul>
+                </div>
+                <button id="toggle-skills">Toggle Skills</button>
+            </section>
+
+            <section id="work-experience">
+                <h2>Work Experience</h2>
+                <ul>
+                    <li><strong>Current Role:</strong> Student at Cloud Applied Generative AI Program at Governor House, Karachi.</li>
+                    <li><strong>Previous Role:</strong> 5 years teaching experience at Amma Foundation Pri. & Sec. School, Karachi.</li>
+                    <li><strong>Job Title:</strong> Front-end Developer at ABC Company (2023-present)</li>
+
+                </ul>
+                <button id="toggle-work-experience">Toggle Work Experience</button>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
